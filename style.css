@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald&display=swap');
+
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style-type: none;
+  }
+body{
+    font-family: "Oswald" , sans-serif;
+    display: flex;
+    align-items: center;
+    background: rgb(8, 8, 8);
+   
+    background-size: 100vh;
+    color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    
+    z-index: 4;
+}
+header .icones{
+    height: 40px;
+    max-width: 3.5%;
+    min-width: 4.5%;
+    left: 90%;
+    position: absolute;
+    display: flex;
+    left: 87%;
+    
+}
+header .git{
+    min-width: 25px;
+    width: 30px;
+    height: 30px;
+    max-height: 40px;
+    contain: content;
+    margin-top: 4px;
+
+
+    
+
+}
+header .git img{
+    width: 30px;
+    height: 30px;
+ 
+}
+
+header .linkedin{
+    min-width: 25px;
+    width: 30px;
+    height: 30px;
+    max-height: 40px;
+    contain: content;
+    margin:4px;
+
+    background-size: 20px;
+    left: 78.5%;
+    margin-top: 4px;
+
+
+    
+
+}
+header .linkedin img{
+    width: 30px;
+    height: 30px;
+ 
+}
+
+
+
+.Ezequiel{
+    max-height: 100rem;
+    min-width: 150px;
+    max-width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    
+    background-color: rgb(17, 235, 46);
+    border-radius: 0% 40% 40% 40%;
+    box-sizing: border-box;
+    z-index: index 0;
+    justify-content: center;
+    margin-block: 7px;
+    align-items: center;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.Ezequiel:hover{
+    animation: bounce 1s;
+    
+
+}
+  
+
+.card{
+    position: absolute;
+    z-index: 2;
+    right: 20%;
+    top: 10%;
+    min-width: 150px;
+    max-width: 40%;
+    left: 5%;
+}
+
+main{
+    width: 90vh;
+    height: 200vh;
+    margin-top: 0%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    contain: content;
+    background-color: rgb(18, 19, 18);
+    
+}
+
+h2{
+    color: rgb(51, 255, 0);
+}
+
+.colchete1{
+    color: rgb(241, 238, 9);
+}
+.colchete2{
+    color: rgb(241, 238, 9);
+}
+ul{
+    display: flex;
+    font-size: 3rem;
+}
+ul .nome{
+    color: aqua;
+    stroke: aquamarine;
+}
